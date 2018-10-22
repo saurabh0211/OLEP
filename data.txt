@@ -1,0 +1,29 @@
+{
+	"banner": {
+		"branchImageUrl": "http://www.dpncindia.com/wp-content/uploads/2013/08/Homepage-Banner-4-Findingyourplaceintheglobaleconomy.jpg",
+		"menuItems": [{
+				"item": "Courses"
+			},
+			{
+				"item": "CodePlayground"
+			}
+		],
+		"heading": "Join the largest community of mobile code learners today",
+		"subHeading": "Learning programming can be fun!"
+	},
+	"cards": [{
+			"card": [{
+				"imageUrl": "https://a.fsdn.com/allura/p/poco/icon?1441893076?&w=90",
+				"title": "C++",
+				"cardContent": "Learn C++ to the full"
+			}]
+		},
+		{
+			"card": [{
+				"imageUrl": "https://a.fsdn.com/allura/p/poco/icon?1441893076?&w=90",
+				"title": "Java",
+				"cardContent": "Learn Java to the full"
+			}]
+		}
+	]
+}

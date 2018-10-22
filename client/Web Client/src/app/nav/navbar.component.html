@@ -1,0 +1,28 @@
+
+<!--<router-outlet></router-outlet>-->
+<div id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container"  style="width:100%;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage" (click)="navbarClick($event,'#myPage')">
+                    <img *ngIf="logoURL" [src]="logoURL" alt="Logo" style="width:50px;height:50px;">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" (click)="navbarClick($event,'#about')">ABOUT</a></li>
+                    <li><a href="#services" (click)="navbarClick($event,'#services')">SERVICES</a></li>
+                    <li><a href="#portfolio" (click)="navbarClick($event,'#portfolio')">PORTFOLIO</a></li>
+                    <li><a href="#pricing" (click)="navbarClick($event,'#pricing')">PRICING</a></li>
+                    <li><a href="#contact" (click)="navbarClick($event,'#contact')">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+

@@ -1,0 +1,7 @@
+<div *ngIf="homePage.banner" class="container">
+    <img *ngIf="homePage.banner.branchImageUrl" [src]="homePage.banner.branchImageUrl" style="width:100%">
+        <div  class="bottom-left">
+            <h1>{{homePage.banner.heading}}</h1>
+            <p>{{homePage.banner.subHeading}}</p>
+          </div>
+  </div>
